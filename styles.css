@@ -1,0 +1,47 @@
+*:focus {outline: none;}
+body {font: 16px/20px "Times New Roman", Times, sans-serif;}
+
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+#signUpForm input{
+    background: #918b9e ;
+    box-shadow: 0 0 5px #918b9e;
+    border-color: #918b9e;
+}
+#signUpForm label{
+    font-family:Georgia, Times, "Times New Roman", serif;
+    color: #eee;
+}
+.panel{
+    margin: 20px;
+    background-color: #403e3e;
+    border-radius: 4px;
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    max-width: 60%;
+}
+.panel-body{
+    padding: 20px;
+    background-color: black;
+}
+.panel-heading{
+    padding: 15px 15px;
+    border: 0 px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color:#918b9e;
+   
+}
+.panel-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    font: bold;
+}
+hr{
+    border-top: 1px dashed #8c8b8b;
+}
